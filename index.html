@@ -1,0 +1,1290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+    <!--font awesome  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- navigation  -->
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand padding-left " href="#">Flipkart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex pe-5">
+                        <input class="form-control me-2" type="search" size="70vw" placeholder="Search for products, brand and more"
+                            aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5 pe-5">
+                        <li class="nav-item">
+                            <button class="btn btn-light text-primary" type="submit">Login</button>
+                        </li>
+
+                        <li class="nav-item dropdown ps-5 pe-5">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link text-light" href="#"> <i
+                                    class="fas fa-shopping-cart fas-color me-2"></i>Cart</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navigation  -->
+
+
+    <!-- category section -->
+    <section>
+        <div class="category-row scroll " style="background-color: #fff;">
+            <div class="category-col ">
+                <img src="images/hp1.png" alt="">
+                <h5>Top Offers</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp2.png" alt="">
+                <h5>Grocery</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp3.png" alt="">
+                <h5>Mobile</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp4.png" alt="">
+                <h5>Fashion</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp5.png" alt="">
+                <h5>Electronics</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp6.png" alt="">
+                <h5>Home</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp7.png" alt="">
+                <h5>Appliances</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp8.png" alt="">
+                <h5>Travel</h5>
+            </div>
+            <div class="category-col">
+                <img src="images/hp9.png" alt="">
+                <h5>Beauty, Toys & More</h5>
+            </div>
+
+        </div>
+    </section>
+    <!-- category section -->
+
+    <!-- banner -->
+    <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- Deals of the Day section -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Deals of the Day</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/hp5.png" alt="">
+                        <h5>HP Core i3 </h5>
+                        <p>Form Rs 40000</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/boat-rockerz-370-original-imafpef5gnphxhzf.jpeg" alt="">
+                        <h5>Boat rockerz 370</h5>
+                        <p>From Rs 2999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/ultra-dual-sddd3-064g-i35-sandisk-original-imag4pzb62zsewdw.jpeg"
+                            alt="">
+                        <h5>Sandisk</h5>
+                        <p>From Rs 699</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/fb-804-g-6-nivia-p-green-original-imafsptbusfmppt8.jpeg" alt="">
+                        <h5>Nivia</h5>
+                        <p>Under Rs 799</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f2.jpeg" alt="">
+                        <h5>bean bags</h5>
+                        <p>From Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/l-kmt-try-this-original-imag9ry6hjhw88ve.jpeg" alt="">
+                        <h5> Men Hooded</h5>
+                        <p>From Rs 399</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img class="mobile-img" src="images/mobile/p1.jpeg" alt="">
+                        <h5>Poco M2 Pro</h5>
+                        <p>Just Rs 12499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/ios-m00d3hn-a-apple-original-imafvvgfmxhyzuh3.jpeg" alt="">
+                        <h5>Apple Watch</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/hp8.png" alt="">
+                        <h5>Aireplane toy</h5>
+                        <p>Just Rs 299</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/hp3.png" alt="">
+                        <h5>Iphone</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Deals of the Day section -->
+
+
+    <!--Headphones & Speakers  -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Headphones & Speakers</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/airdopes-381-airdopes-383-boat-original-imag5ygavs8eryqw.jpeg"
+                            alt="">
+                        <h5>boAt Airdopes 381 </h5>
+                        <p>Form Rs 1799</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/rockerz-333-boat-original-imag4r33r4sezgjq.jpeg" alt="">
+                        <h5>Boat rockerz 250 </h5>
+                        <p>From Rs 1999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/b097-truke-original-imagfukbrmg3uyde.jpeg" alt="">
+                        <h5>Truke Fit 1+</h5>
+                        <p>From Rs 999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/s3.jpeg" alt="">
+                        <h5>Mivi DuoPods </h5>
+                        <p>Under Rs 1199</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/stone-350-boat-original-imafyebfuaumdezs.jpeg" alt="">
+                        <h5>boAt Stone 350</h5>
+                        <p> Rs 1499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/s7.jpeg" alt="">
+                        <h5> boAt Rockerz 450</h5>
+                        <p>From Rs 1399</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/headphone/s2.jpeg" alt="">
+                        <h5>Speaker</h5>
+                        <p>Just Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/s4.jpeg" alt="">
+                        <h5>JBL</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/rockerz-255f-rockerz-255-boat-original-imag66ckxprfrsz2.jpeg" alt="">
+                        <h5>boat rockerz 370</h5>
+                        <p>Just Rs 1299</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/headphone/s1.jpeg" alt="">
+                        <h5>Mivi</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Headphones & Speakers  -->
+
+    <!-- Top Deals On Fashion -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Top Deals On Fashion</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/3xl-t2-seven-rocks-original-imafzbptgchwstcx.jpeg" alt="">
+                        <h5> Men's Winterwear</h5>
+                        <p>Min 60% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/3xl-t342hs-irbl-seven-rocks-original-imafz9ansxxnsgsp.jpeg" alt="">
+                        <h5>T-Shirts</h5>
+                        <p>Min 40% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c5.jpg" alt="">
+                        <h5>Pant</h5>
+                        <p>Min 50% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c2.jpeg" alt="">
+                        <h5>T-Shirts</h5>
+                        <p>Under Rs 399</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/w3.jpeg" alt="">
+                        <h5>Sharee</h5>
+                        <p>From Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/w6.jpeg" alt="">
+                        <h5> Girl's Ethnic Wear</h5>
+                        <p>From Rs 699</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/Fashion/l-kmt-try-this-original-imag9ry6hjhw88ve.jpeg" alt="">
+                        <h5>Sweatshirts</h5>
+                        <p>Min 40% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/s-t338hs-bl-new-eyebogler-original-imafzumuy33reap8.jpeg" alt="">
+                        <h5>T-shirts</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/s-t345-blwhir-new-eyebogler-original-imafzr4yyf5qhf57.jpeg" alt="">
+                        <h5>Sweatshirts</h5>
+                        <p>Just Rs 599</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c7.jpeg" alt="">
+                        <h5>Shorts</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Top Deals On Fashion  -->
+
+    <!-- Top Picks On Men's Clothing -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Top Picks On Men's Clothing</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/l-1826111-invictus-original-imafghx9m4b7nqyz.jpeg" alt="">
+                        <h5>Jackets </h5>
+                        <p>Min 60% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/32-fmtr4280-flying-machine-original-imafmbvrun4ykb9k.jpeg" alt="">
+                        <h5>Pant</h5>
+                        <p>From Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c6.jpeg" alt="">
+                        <h5>Shirts</h5>
+                        <p>From Rs 399</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/m-58969702-puma-original-imafxmgqzj7eahht.jpeg" alt="">
+                        <h5>Men's Winterwear</h5>
+                        <p>Under Rs 799</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/m-hljk000297-highlander-original-imafhhbqevhdastj.jpeg" alt="">
+                        <h5>Jackets</h5>
+                        <p>From Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c7.jpeg" alt="">
+                        <h5> Shorts</h5>
+                        <p>From Rs 399</p>
+
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/s-t338hs-bl-new-eyebogler-original-imafzumuy33reap8.jpeg" alt="">
+                        <h5>T-Shirts</h5>
+                        <p>Extra 20% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/32-fmtr4280-flying-machine-original-imafmbvrun4ykb9k.jpeg" alt="">
+                        <h5>Pants</h5>
+                        <p>Just Rs 799</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/m-t342hs-rdbl-seven-rocks-original-imafz8fp52mbw8a5.jpeg" alt="">
+                        <h5>T-Shirts</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/Fashion/l-kmt-try-this-original-imag9ry6hjhw88ve.jpeg" alt="">
+                        <h5>Sweatshirts</h5>
+                        <p>Just Rs 299</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Top Picks On Men's Clothing  -->
+
+    <!-- Fashion For Everyone -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Fashion For Everyone</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/Fashion/8-9-years-1160-the3536-original-imafxxfzuhsvmkzj.jpeg" alt="">
+                        <h5>Girl's Ethnic Wear </h5>
+                        <p>Min 60% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/Fashion/na-free-gn700-dev-fashion-na-original-imafj33qpsevfpkr.jpeg" alt="">
+                        <h5>Gowns</h5>
+                        <p>From Rs 999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img  src="images/shoe/eh3599-6-5-reebok-colsha-cdgry2-pospnk-original-imafwg5xvgcgtxzr.jpeg"
+                            alt="">
+                        <h5>Reebok</h5>
+                        <p>Min 30% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/Fashion/3-4-years-nn00583drs-naughty-ninos-original-imafzqjzjwevtwyw.jpeg"
+                            alt="">
+                        <h5>Naught Ninos</h5>
+                        <p> From Rs 199</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/w3.jpeg" alt="">
+                        <h5>Sarees</h5>
+                        <p>From Rs 799</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/w6.jpeg" alt="">
+                        <h5> Girl's Ethnic Wear</h5>
+                        <p>From Rs 599</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/Fashion/m-58969702-puma-original-imafxmgqzj7eahht.jpeg" alt="">
+                        <h5>Sweatshirts</h5>
+                        <p>Extra 15% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/s-t338hs-bl-new-eyebogler-original-imafzumuy33reap8.jpeg" alt="">
+                        <h5>T-Shirts</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/s-t345-blwhir-new-eyebogler-original-imafzr4yyf5qhf57.jpeg" alt="">
+                        <h5>Sweatshirts</h5>
+                        <p>Just Rs 499</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Fashion/c7.jpeg" alt="">
+                        <h5>Shorts</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fashion For Everyone -->
+
+    <!-- Men's Footwear -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Men's Footwear</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/10-mrj1598-10-aadi-maroon-original-imagyent6mptsmcd.jpeg" alt="">
+                        <h5> Sport shoes</h5>
+                        <p>Upto 60% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/7-5121-7-white-walkers-grey-original-imafzmzsppdvygvz.jpeg" alt="">
+                        <h5>Best Sellers</h5>
+                        <p>From Rs 999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/7-444-gry-org-bruton-orange-original-imagfp7fzz5ftzfc.jpeg" alt="">
+                        <h5>Best Selling Footwear</h5>
+                        <p>30-40% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/sfg-517-8-sparx-black-original-imaeujqgweyukgxq.jpeg" alt="">
+                        <h5>Slippers</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/6-socks-04-grey-6-density-grey-original-imag6n4yzbnfzmgc.jpeg" alt="">
+                        <h5>Sneakers</h5>
+                        <p> From Rs 299</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/cscocmouse-6-asian-brown-original-imaf78gxmkzgxg7p.jpeg" alt="">
+                        <h5>Casuals For Men</h5>
+                        <p>Just Rs 499</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/shoe/fb-804-g-6-nivia-p-green-original-imafsptbusfmppt8.jpeg" alt="">
+                        <h5>Football Shoes</h5>
+                        <p> 10-15% off</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/wndr-13cgryblk-12-asian-grey-black-original-imaf37vtwrttchqe.jpeg" alt="">
+                        <h5>Sport</h5>
+                        <p>Just Rs 499</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/eh3599-6-5-reebok-colsha-cdgry2-pospnk-original-imafwg5xvgcgtxzr.jpeg"
+                            alt="">
+                        <h5> Reebok</h5>
+                        <p>Just Rs 299</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/shoe/9-crew-sock-fit-running-sneaker-first-mart-navy-blue-original-imag5x9u3hfqhndy.jpeg"
+                            alt="">
+                        <h5>Shorts</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Men's Footwear -->
+    <!--Best of Appliances -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Best of Appliances </h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/50put8215-94-philips-original-imag4gb5vkhsj8fk.jpeg" alt="">
+                        <h5> AndroidTv</h5>
+                        <p>Starting at Rs 11499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/bajaj-bajaj-majesty-ktx2-ktx2-original-imafebuxg2fcywpr.jpeg"
+                            alt="">
+                        <h5>Bajaj Kettle</h5>
+                        <p>Upto 55% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/egg-boiler-6-ortec-original-imafg5utgyeyb48p.jpeg" alt="">
+                        <h5>Egg Cookers</h5>
+                        <p>From RS 249</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/ge123c-opera-original-imaf8zxuswsnqtgq.jpeg" alt="">
+                        <h5>Kitchen Tool Sets</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img  class="mobile-img" src="images/Appliances/nova-2-slice-sandwich-maker-original-imaf74a8zrqzfgug.jpeg" alt="">
+                        <h5>Sandwich Makers</h5>
+                        <p> Upto 80% off</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/platini-coolest-torque-px-97-bajaj-original-imafp7akmpnvrzt6.jpeg"
+                            alt="">
+                        <h5>Air Cooler </h5>
+                        <p>Just Rs 499</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/Appliances/prestige-prestige-pkoss-pkoss-1-5-original-imafz4wtzxhkau3g.jpeg"
+                            alt="">
+                        <h5>Prestige Kettles</h5>
+                        <p> Upto 40% off</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/u-16052-1-8-kent-original-imafmuj5n58zzpbm.jpeg" alt="">
+                        <h5>Kent Electric Kettle</h5>
+                        <p>Upto 50% off</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/butterfly-arrow-original-imafcz43zxwekpzc.jpeg" alt="">
+                        <h5> Mixer Grinder</h5>
+                        <p>Starting Rs 999</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/Appliances/advanced-max-pureit-original-imag6z9zzfn2ejms.jpeg" alt="">
+                        <h5>Mineral RO</h5>
+                        <p>Upto 55% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Best of Appliances  -->
+
+    <!-- Best Battery Phones -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Best Battery Phones </h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img class="mobile-img" src="images/mobile/p1.jpeg" alt="">
+                        <h5> Poco M2 Pro</h5>
+                        <p>5000 mAh Battery</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/mobile/p2.jpeg" alt="">
+                        <h5>oneplus</h5>
+                        <p>5000 mAh Battery</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/mobile/p3.jpeg" alt="">
+                        <h5>Tecno Spark </h5>
+                        <p>6000 mAh Battery</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/mobile/p4.jpeg" alt="">
+                        <h5>SAMSUNG</h5>
+                        <p>5000 mAh Battery</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img"
+                            src="images/mobile/note-11t-21091116ai-mzb0a8qain-redmi-original-imag9g3hxujubg8g.jpeg"
+                            alt="">
+                        <h5>REDMI Note 11T </h5>
+                        <p> 5000 mAh Battery</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img"
+                            src="images/mobile/11lite5g-11-lite-ne-5g-redmi-original-imag7f6cj8dytyj2.jpeg" alt="">
+                        <h5>Xiaomi 11Lite NE</h5>
+                        <p>4250 mAh Battery</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img class="mobile-img" src="images/mobile/p7.jpeg" alt="">
+                        <h5>SAMSUNG</h5>
+                        <p>5000 mAh Battery</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/mobile/oppo-a9-2020-cph1937-original-imafkhhxh2vsxnmq.jpeg"
+                            alt="">
+                        <h5>Oppo A9</h5>
+                        <p>4000 mAh Battery</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/mobile/c21y-rmx3261-realme-original-imag65kcafgjqknz.jpeg"
+                            alt="">
+                        <h5> Realme C21Y</h5>
+                        <p>5500 mAh Battery</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img"
+                            src="images/mobile/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg" alt="">
+                        <h5>Realme narzo 50a</h5>
+                        <p>5000 mAh Battery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Battery Phones -->
+
+    <!-- pendrive -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Best pendrive </h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/sandisk-sdddc4-032g-i35-original-imafunugrpaabn6e.jpeg" alt="">
+                        <h5>SanDisk</h5>
+                        <p>32GB</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/strontium-nitro-ammo-3-1-original-imaf7ghbntptvrgb.jpeg" alt="">
+                        <h5>Hp</h5>
+                        <p>32GB</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/ultra-dual-sddd3-064g-i35-sandisk-original-imag4pzb62zsewdw.jpeg"
+                            alt="">
+                        <h5>Ultra Dual SanDisk</h5>
+                        <p> 64GB</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/sdcz50-032g-sdcz50-032g-i35-sandisk-original-imagfc7rdywypccr.jpeg"
+                            alt="">
+                        <h5>SanDisk </h5>
+                        <p>6000 mAh Battery</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/pendrive/v236w-hp-original-imafxvf93gh7axat.jpeg" alt="">
+                        <h5>HP</h5>
+                        <p>64GB</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/pendrive/hp-x740w-original-imafz4v779hjemtr.jpeg" alt="">
+                        <h5> HP</h5>
+                        <p>32GB</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/pendrive/sdddc2-064g-i35-sandisk-original-imafxubtqtxahat2.jpeg" alt="">
+                        <h5>SanDisk</h5>
+                        <p>64GB</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img"
+                            src="images/pendrive/simmtronics-usb-flash-drive-with-metal-body-5-years-warranty-original-imafe6c4qzdszfrs.jpeg"
+                            alt="">
+                        <h5>Simmtronic Usb</h5>
+                        <p>32GB</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/pendrive/sandisk-sdddc3-064g-i35-original-imafpjhvwhdkzbys.jpeg" alt="">
+                        <h5>SanDisk</h5>
+                        <p>64GB</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/pendrive/ultra-dual-sddd3-064g-i35-64-gb-otg-drive-sandisk-original-imafybrdgfsdugdb.jpeg"
+                            alt="">
+                        <h5>Ultra Dual SanDisk</h5>
+                        <p> 32GB</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- pandrive -->
+
+    <!--watch  -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Men's Watch</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/band-weather-ip67-waterproof-im-ls-m3-band-weather-ip67-original-imaf8zfynvhzxmzz.jpeg"
+                            alt="">
+                        <h5> Smart Band</h5>
+                        <p>Form Rs 999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/ios-m00d3hn-a-apple-original-imafvvgfmxhyzuh3.jpeg" alt="">
+                        <h5>APPLE Watch</h5>
+                        <p>Rs 19,900</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/w2.jpeg" alt="">
+                        <h5>watch</h5>
+                        <p>Extra 10% off</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/ios-m06x3hn-a-apple-original-imafvvhdr6shzrfk.jpeg" alt="">
+                        <h5>APPLE Watch</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/m5.jpeg" alt="">
+                        <h5>watch </h5>
+                        <p>Under Rs 1000</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/sb-076-opta-original-imafbfzcgcpwgdpg.jpeg" alt="">
+                        <h5> Android</h5>
+                        <p>From Rs 1399</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/m6.jpeg" alt="">
+                        <h5>watch</h5>
+                        <p> Rs 499</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/w4.jpeg" alt="">
+                        <h5>Men's watch</h5>
+                        <p>Just Rs 599</p>
+
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/watch/series-6-bluetooth-android-ios-elite-original-imafygruz6w2n5uz.jpeg"
+                            alt="">
+                        <h5>Android watch</h5>
+                        <p>Just Rs 1499</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/watch/x6-smart-watch-black-007-darshraj-original-imafchy6gvmwjtzq.jpeg" alt="">
+                        <h5>Smart watch</h5>
+                        <p>Upto 25% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--watch  -->
+
+    <!-- Furniture Bestsellers -->
+    <div class="container-fluid mt-2">
+        <div class="row bg-box ms-1 me-1 border">
+            <div class="col-12  d-flex justify-content-between  mt-3 mb-2">
+                <h1>Furniture Bestsellers</h1>
+                <button type="button" class="btn btn-primary ">VIEW ALL</button>
+            </div>
+
+            <div class="col-12 scroll border ">
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/4-5-layer-utility-cloth-cabinet-shoe-rack-organiser-parasnath-original-imafn8ng4gtzhcmf.jpeg"
+                            alt="">
+                        <h5> Shoe Racks</h5>
+                        <p>Form Rs 249</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f1.jpeg" alt="">
+                        <h5>Hammock And Swings</h5>
+                        <p>From Rs 199</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f2.jpeg" alt="">
+                        <h5>Bean Bag</h5>
+                        <p>From Rs 499</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f3.jpeg" alt="">
+                        <h5>Bunk bed</h5>
+                        <p>Upto 10% off</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f4.jpeg" alt="">
+                        <h5>Inflatable Sofa</h5>
+                        <p>Under Rs 1169</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img class="mobile-img" src="images/furniture/f5.jpeg" alt="">
+                        <h5> Office Arm Chair </h5>
+                        <p>From Rs 2399</p>
+
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f6.jpeg" alt="">
+                        <h5>TV Entertainment Unit </h5>
+                        <p> Rs 14,999</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/f7.jpeg" alt="">
+                        <h5>Hammock And Swings</h5>
+                        <p>Extra 10% off</p>
+
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid ">
+                        <img src="images/furniture/fc-sj-01-furniture-kart-original-imafv7bh7v349hhh.jpeg" alt="">
+                        <h5>Hammock And Swings</h5>
+                        <p>From Rs 199</p>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="img-fluid">
+                        <img src="images/furniture/particle-board-dkl-comp-tb-09-delite-kom-brown-original-imafcheqbgers37z.jpeg"
+                            alt="">
+                        <h5>Study Table</h5>
+                        <p>Upto 25% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Furniture Bestsellers -->
+    <!-- footer -->
+    <div class="container-fluid mb-5">
+        <div class="row  footer-bg   ">
+            <div class="col-12 footer pb-4">
+                <div class="footer-box ">
+                    <p>ABOUT</p>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Flipkart Stories</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Flipkart wholesale</a></li>
+                        <li><a href="#">corporate Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box ">
+                    <p>HELP</p>
+                    <ul>
+                        <li><a href=" #">Payments</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Cancelletion & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Report infringement</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <p>POLICY</p>
+                    <ul>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Security </a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">EPR Comoliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box footer-pe">
+                    <p>SOCIAL</p>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+
+                    </ul>
+                </div>
+                <div class=" footer-address border-start ps-4">
+                    <p>Mail Us:</p>
+                    <p class="address_p">Flipkart Internet Private Limited,<br>
+
+                        Buildings Alyssa, Begonia &<br>
+
+                        Clove Embassy Tech Village,<br>
+
+                        Outer Ring Road, Devarabeesanahalli Village,<br>
+
+                        Bengaluru, 560103,<br>
+
+                        Karnataka, India</p>
+                </div>
+                <div class=" footer-address ps-5">
+                    <p>Registered Office Address::</p>
+                    <p class="address_p">Flipkart Internet Private Limited,<br>
+
+                        Buildings Alyssa, Begonia &<br>
+                        
+                        Clove Embassy Tech Village,<br>
+                        
+                        Outer Ring Road, Devarabeesanahalli Village,<br>
+                        
+                        Bengaluru, 560103,<br>
+                        
+                        Karnataka, India<br>
+                        
+                        CIN : U51109KA2012PTC066107<br>
+                        
+                        Telephone: <a href="tel:18002029898">1800 202 9898</a></p>
+                </div>
+            </div>
+            <div class="col-12  border-top">
+                <div class="footer-2 ms-5">
+                    <img src="images/download-1.svg" alt="">
+                    <a href="">Sell On Flipkart</a>
+                </div>
+
+                <div class="footer-2 ms-5">
+                    <img src="images/download -2.svg" alt="">
+                    <a href="">Advertise</a>
+                </div>
+
+                <div class="footer-2 ms-5">
+                    <img src="images/download -3.svg" alt="">
+                    <a href="">Gift Cards</a>
+                </div>
+
+                <div class="footer-2 ms-5">
+                    <img src="images/download-4.svg" alt="">
+                    <a href="">Help Center</a>
+                </div>
+
+                <div class="footer-2 ms-5">
+                    <p>© 2007-2022 Flipkart.com</p>
+                </div>
+
+                <div class="footer-2">
+                    <img src="images/payment-method_69e7ec.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    
+  
+
+    <!-- footer -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
